@@ -1,0 +1,49 @@
+/* Custom Styles */
+
+#home{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(60, 61, 61);
+}
+
+.card-img-top{
+  border-radius: 8px;
+  border: solid grey 3px;
+  height: 380px;
+  width: 415px;
+}
+
+.img-fluid{
+  border-radius: 5px;
+  border: solid;
+}
+
+
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Adjust section padding */
+  section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  /* Navbar brand logo size */
+  .navbar-brand img {
+    height: 40px;
+  }
+  
+  /* Modal Popup Timing (Optional) */
+
+  a {
+    color: inherit; /* Keeps the default text color */
+    text-decoration: none; /* Removes the underline */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover */
+  }
+  
